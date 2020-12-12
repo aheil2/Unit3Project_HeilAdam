@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>UEE Pilot Quiz</title>
+</head>
+<body>
+<div class="container w-75">
+    <h1>United Empire of Earth</h1>
+    <nav>
+        <div>
+            <a href="index.html">HOME</a>
+        </div>
+        <div>
+            <a href="quiz.html">QUIZ</a>
+        </div>
+        <div>
+            <a href="contact.html">CONTACT</a>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col">
+            <h2>What type of space pilot are you?</h2>
+        </div>
+    </div>
+    <div id="quiz">
+        <form id="quizForm">
+            <fieldset id="q1">
+                <legend>What is your favorite outdoor activity?</legend>
+                <div class="form-check">
+                    <input type="radio" id="q1-1" name="q1" data-combat="4" data-explorer="0" class="form-check-input">
+                    <label for="q1-1" class="form-check-label">A competitive sport.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q1-2" name="q1" data-combat="0" data-explorer="4" class="form-check-input">
+                    <label for="q1-2" class="form-check-label">Hiking.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q1-3" name="q1" data-combat="2" data-explorer="2" class="form-check-input">
+                    <label for="q1-3" class="form-check-label">Neither. I live in a space ship.</label>
+                </div>
+            </fieldset>
+
+            <fieldset id="q2">
+                <legend>Which word describes your personality?</legend>
+                <div class="form-check">
+                    <input type="radio" id="q2-1" name="q2" data-combat="4" data-explorer="0" class="form-check-input">
+                    <label for="q2-1" class="form-check-label">Aggressive.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q2-2" name="q2" data-combat="0" data-explorer="4" class="form-check-input">
+                    <label for="q2-2" class="form-check-label">Passive.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q2-3" name="q2" data-combat="2" data-explorer="2" class="form-check-input">
+                    <label for="q2-3" class="form-check-label">Bold.</label>
+                </div>
+            </fieldset>
+
+            <fieldset id="q3">
+                <legend>What is your worst fear?</legend>
+                <div class="form-check">
+                    <input type="radio" id="q3-1" name="q3" data-combat="3" data-explorer="1" class="form-check-input">
+                    <label for="q3-1" class="form-check-label">Dying alone, in space.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q3-2" name="q3" data-combat="1" data-explorer="3" class="form-check-input">
+                    <label for="q3-2" class="form-check-label">Getting captured by pirates.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q3-3" name="q3" data-combat="0" data-explorer="4" class="form-check-input">
+                    <label for="q3-3" class="form-check-label">Going into to battle.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q3-4" name="q3" data-combat="4" data-explorer="0" class="form-check-input">
+                    <label for="q3-4" class="form-check-label">Get jettisoned into space.</label>
+                </div>
+            </fieldset>
+
+            <fieldset id="q4">
+
+                <legend>What is your favorite way to relax?</legend>
+                <div class="form-check">
+                    <input type="radio" id="q4-1" name="q4" data-combat="4" data-explorer="0" class="form-check-input">
+                    <label for="q4-1" class="form-check-label">War-based video games.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q4-2" name="q4" data-combat="3" data-explorer="1" class="form-check-input">
+                    <label for="q4-2" class="form-check-label">Chess.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q4-3" name="q4" data-combat="1" data-explorer="3" class="form-check-input">
+                    <label for="q4-3" class="form-check-label">Reading a book.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q4-4" name="q4" data-combat="0" data-explorer="4" class="form-check-input">
+                    <label for="q4-4" class="form-check-label">Sitting in absolute silence.</label>
+                </div>
+            </fieldset>
+
+            <fieldset id="q5">
+                <legend>What best describes your work ethic?</legend>
+                <div class="form-check">
+                    <input type="radio" id="q5-1" name="q5" data-combat="0" data-explorer="4" class="form-check-input">
+                    <label for="q5-1" class="form-check-label">Earnest.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q5-2" name="q5" data-combat="1" data-explorer="3" class="form-check-input">
+                    <label for="q5-2" class="form-check-label">Workaholic.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q5-3" name="q5" data-combat="2" data-explorer="2" class="form-check-input">
+                    <label for="q5-3" class="form-check-label">Lazy.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q5-4" name="q5" data-combat="3" data-explorer="1" class="form-check-input">
+                    <label for="q5-4" class="form-check-label">Hardworking.</label>
+                </div>
+            </fieldset>
+
+            <fieldset id="q6">
+                <legend>How do you like to spend your weekends?</legend>
+                <div class="form-check">
+                    <input type="radio" id="q6-1" name="q6" data-combat="4" data-explorer="0" class="form-check-input">
+                    <label for="q6-1" class="form-check-label">Curled up alone in bed after a nice warm bath.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q6-2" name="q6" data-combat="3" data-explorer="1" class="form-check-input">
+                    <label for="q6-2" class="form-check-label">Outdoors, climbing mountains and exploring
+                        nature.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q6-3" name="q6" data-combat="1" data-explorer="3" class="form-check-input">
+                    <label for="q6-3" class="form-check-label">Quietly hanging out with my loved ones.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q6-4" name="q6" data-combat="0" data-explorer="4" class="form-check-input">
+                    <label for="q6-4" class="form-check-label">Shopping and partying with a large group of
+                        friends.</label>
+                </div>
+            </fieldset>
+
+            <fieldset id="q7">
+                <legend>If you could have a superpower, what would it be?</legend>
+                <div class="form-check">
+                    <input type="radio" id="q7-1" name="q7" data-combat="3" data-explorer="1" class="form-check-input">
+                    <label for="q7-1" class="form-check-label">Being bulletproof.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q7-2" name="q7" data-combat="1" data-explorer="3" class="form-check-input">
+                    <label for="q7-2" class="form-check-label">Invisibility.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q7-3" name="q7" data-combat="2" data-explorer="2" class="form-check-input">
+                    <label for="q7-3" class="form-check-label">Mind reading.</label>
+                </div>
+            </fieldset>
+
+            <fieldset id="q8">
+                <legend>Lastly, where do you see yourself in 10 years?</legend>
+                <div class="form-check">
+                    <input type="radio" id="q8-1" name="q8" data-combat="4" data-explorer="0" class="form-check-input">
+                    <label for="q8-1" class="form-check-label">Fighting alien forces for the UEE.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q8-2" name="q8" data-combat="0" data-explorer="4" class="form-check-input">
+                    <label for="q8-2" class="form-check-label">200 light years outside Sagittarius A*.</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="q8-3" name="q8" data-combat="2" data-explorer="2" class="form-check-input">
+                    <label for="q8-3" class="form-check-label">Playing a game of chess with your best friend.</label>
+                </div>
+            </fieldset>
+
+            <div class="row" id="scoreQuizButton">
+                <div class="col">
+                    <button class="btn btn-primary">See My Result!</button>
+                </div>
+            </div>
+
+            <div class="row" id="results">
+                <div class="col">
+                    <div class="row no-gutters">
+                        <div id="percentBar" class="col-10">
+                            <span id="percentCombat"></span><span id="percentExplorer"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h2 id="description"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="code.js"></script>
+</body>
+</html>

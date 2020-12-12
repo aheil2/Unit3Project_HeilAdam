@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>UEE Pilot Quiz</title>
+</head>
+<body>
+<div class="container w-75">
+    <h1>United Empire of Earth</h1>
+    <nav>
+        <div>
+            <a href="index.html">HOME</a>
+        </div>
+        <div>
+            <a href="quiz.html">QUIZ</a>
+        </div>
+        <div>
+            <a href="contact.html">CONTACT</a>
+        </div>
+    </nav>
+    <h1>Contact us if you are interested in joining!</h1>
+    <div>
+        <a id="contactEmail" href="mailto:contact@uee.com">contact@uee.com</a><br>
+    </div>
+    <form id="contactForm" name="PTR Contact Form" method="post" data-netlify="true" data-netlify-recaptcha="true">
+        <div>Required information is marked with an asterisk *.</div>
+        <label for="myName">* Name:</label>
+        <input type="text" name="myName" id="myName" required><br>
+
+        <label for="myEmail">* E-mail:</label>
+        <input type="email" name="myEmail" id="myEmail" required><br>
+
+        <label for="myDatalist">How did you hear about us?</label>
+        <input type="text" list="testList" name="myDataList" id="myDatalist">
+
+        <datalist id="testList">
+            <option value="Google">
+            <option value="Instagram">
+            <option value="Twitter">
+            <option value="Other">
+        </datalist><br><br>
+
+        <label for="myComments">* Comments</label>
+        <textarea name="myComments" id="myComments" rows="2" cols="20" required></textarea>
+        <div data-netlify-recaptcha="true"></div><br>
+
+        <input type="submit" value="Send Now">
+    </form>
+    <div id="nameResponse">
+        <span id="message"></span>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="code.js"></script>
+</body>
+</html>
